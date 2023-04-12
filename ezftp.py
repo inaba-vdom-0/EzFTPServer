@@ -16,7 +16,7 @@ def serverauth():
     svip = '0.0.0.0'
 
     dirname = dirselect
-    os.makedirs(dir, exist_ok=True)
+    os.makedirs(dirname, exist_ok=True)
 
     auth = pa.DummyAuthorizer()
     auth.add_user(username, password, dirname, perm='elradfmw')
