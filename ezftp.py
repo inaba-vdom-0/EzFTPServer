@@ -8,14 +8,13 @@ import pyftpdlib.handlers as ph
 import pyftpdlib.servers as ps
 
 def serverauth():
-    """Create authenticated user, specify server ip, specify directory"""
+    """Create authenticated user, specify directory"""
     dfdir = 'C:\\'
     dirselect = fd.askdirectory(initialdir=dfdir)
     username = input('Enter username :')
     password = input('Enter password :')
     svip = '0.0.0.0'
 
-    # directory is "dirselect"
     dirname = dirselect
     os.makedirs(dir, exist_ok=True)
 
