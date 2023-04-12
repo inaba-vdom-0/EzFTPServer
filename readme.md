@@ -12,3 +12,6 @@ This application is a standalone packaging of .py by pyinstaller and can be run 
 ## Build Environment
 - python 3.10.9 64-bit
 - windows 10 Enterprise 64bit 21H2
+
+## Lisence
+The license for this project is the MIT License.
