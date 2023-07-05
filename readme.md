@@ -15,3 +15,6 @@ This application is a standalone packaging of .py by pyinstaller and can be run 
 
 ## License
 The license for this project is the MIT License.
+
+-dependencies
+-pyftpdlib 1.5.6 MIT License
